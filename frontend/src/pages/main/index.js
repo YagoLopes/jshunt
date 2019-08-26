@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import api from '../../services/api';
+import "./styles.css";
 
 export default class main extends Component {
   state = {
@@ -16,7 +17,13 @@ export default class main extends Component {
     return (
       <div className="product-list">
         {this.state.products.map((product) => {
-          return <h2 key={product._id}>{product.title}</h2>;
+          return <article key={product._id}>
+<strong>{product.title}</strong>
+<p>{product.description}</p>
+<a href="">Acessar</a>
+
+          </article>
+                 
         })}
       </div>
     );
