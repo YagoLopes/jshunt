@@ -25,6 +25,9 @@ It's free!
 ## Some Observations about this App
 
 - There's no functionality of Login/Register.
+- Run backend is required
+- Run MongoDB is required
+- To make your application run smoothly, install the docker container and the docker-compose orchestrator
 
 ### Installing
 
