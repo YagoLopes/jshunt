@@ -65,6 +65,10 @@ $ yarn
 
 With all dependencies installed and the environment properly configured, you can now run the app:
 
+Install Docker [here](https://docs.docker.com/install/)
+
+Install Docker Compose [here](https://docs.docker.com/compose/install/)
+
 Run
 
 ```
