@@ -57,7 +57,7 @@ export default class main extends Component {
                 })}
                 <div className="actions">
                     <button disabled={page === 1} onClick={this.prevPage}>
-                        Anterior
+                        teste
                     </button>
                     <button
                         disabled={page === productInfo.pages}
